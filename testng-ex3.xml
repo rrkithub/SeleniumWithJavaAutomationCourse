@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="ParameterExample">
+        <parameter name="browser" value="Chrome"></parameter>
+        <parameter name="url" value="https://demo.guru99.com/test/newtours/index.php"></parameter>
+        <classes>
+            <class name="TestNGBasics.ParameterEx">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="ParameterExample2">
+        <parameter name="browser" value="FireFox"></parameter>
+        <parameter name="url" value="https://demo.guru99.com/test/newtours/index.php"></parameter>
+        <classes>
+            <class name="TestNGBasics.ParameterEx">
+            </class>
+        </classes>
+    </test>
+</suite>
