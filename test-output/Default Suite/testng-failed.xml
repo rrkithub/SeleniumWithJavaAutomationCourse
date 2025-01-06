@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="" value=""/>
+  <test parallel="none" name="AutomationTrainingTwo(failed)">
+    <classes>
+      <class name="TestNGBasics.FirstTestNGEx">
+        <methods>
+          <include name="launchTheURL"/>
+          <include name="verifyHomepageText"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- TestNGBasics.FirstTestNGEx -->
+    </classes>
+  </test> <!-- AutomationTrainingTwo(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
